@@ -1,8 +1,12 @@
 package dio.edu.taskmanager.domain;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.util.Assert;
 import java.util.Optional;
 
+@Getter
+@Setter
 /*
  * A classe Task representa uma tarefa no sistema de gerenciamento de tarefas.
  * Cada tarefa possui um identificador único (TaskId), um título, uma descrição opcional
