@@ -3,9 +3,11 @@ package dio.edu.taskmanager.infrastructure;
 import dio.edu.taskmanager.domain.Task;
 import dio.edu.taskmanager.domain.TaskId;
 import dio.edu.taskmanager.domain.TaskRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+@Repository
 /*
  * A classe InMemoryTaskRepository é uma implementação da interface TaskRepository que armazena as tarefas
  * em memória usando um HashMap.

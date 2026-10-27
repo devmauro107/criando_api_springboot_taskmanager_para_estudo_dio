@@ -16,20 +16,17 @@ public interface TaskRepository {
      * @return A tarefa salva.
      */
     Task save(Task task);
-
     /*
      * Retorna uma lista com todas as tarefas no repositório.
      * @return Uma lista de todas as tarefas.
      */
     List<Task> findAll();
-
     /*
      * Retorna uma tarefa com base no seu identificador (TaskId).
      * @param id O identificador da tarefa a ser buscada.
      * @return Um Optional contendo a tarefa encontrada, ou vazio se não houver nenhuma tarefa com o ID fornecido.
      */
     Optional<Task> findById(Task id);
-
     /*
      * Deleta uma tarefa com base no seu identificador (TaskId).
      * @param id O identificador da tarefa a ser deletada.
